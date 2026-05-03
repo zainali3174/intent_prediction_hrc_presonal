@@ -32,8 +32,8 @@ Encountered libfranka compatibility issue. The driver, franka_ros2, uses libfran
 This week, focus will be on understanding the frnaka_ros2 driver and libfranka, inverse kinematics and system communication flow. A simple pick and place example will also be implemented and tested on both, hardware and simulation.
 
 ### Tasks
-- [ ] Explore `franka_ros2` driver setup and structure  
-- [ ] Study `libfranka` API and its usage  
-- [ ] explore inverse kinematics (IK) for Panda  
+- [x] Explore `franka_ros2` driver setup and structure  
+- [x] Study `libfranka` API and its usage  
+- [x] explore inverse kinematics (IK) for Panda  
 - [ ] Analyze communication flow between ROS2, driver, mujoco and robot hardware  
-- [ ] Implement a basic pick-and-place example in simulation and hardware  
+- [x] Implement hand guided mode through libfranka 
